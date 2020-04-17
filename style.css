@@ -1,6 +1,6 @@
 /*
 Thank you!
-Borrowed some code form https://www.w3schools.com/
+Borrowed some code from https://www.w3schools.com/
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,700;1,700&display=swap');
@@ -16,6 +16,11 @@ h1, h2 {
 h2 {
   font-style: normal;
   font-size: 48px;
+}
+
+body {
+  background-image: "images/bg.png");
+  background-repeat: repeat-y;
 }
 
 footer {
