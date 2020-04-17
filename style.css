@@ -1,3 +1,8 @@
+/*
+Thank you!
+Borrowed some code form https://www.w3schools.com/
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,700;1,700&display=swap');
 
 h1, h2 {
@@ -19,6 +24,31 @@ footer {
     padding-bottom: 10px;
     background-color: lightgray;
     margin-top: 20px;
+}
+
+/* header links don't need underlines */
+a.header-link {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(71, 0, 0);
+}
+  
+  /* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+  
+  /* mouse over link */
+a:hover {
+  color: rgb(148, 0, 0);
+}
+  
+  /* selected link */
+a:active {
+  color: rgb(255, 0, 0);
 }
 
 .boxed {
