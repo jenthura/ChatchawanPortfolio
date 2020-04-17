@@ -9,7 +9,7 @@ Used background pattern generator from http://www.heropatterns.com/
 h1, h2, p {
   font-family: 'Roboto Mono';
   font-style: italic;
-  weight: 700;
+  font-weight: 700;
   font-size: 68px;
   text-align: center;
   color: rgb(40, 3, 3);
@@ -23,7 +23,7 @@ h2 {
 p {
   font-family: "PT Sans";
   font-style: normal;
-  weight: 700;
+  font-weight: 700;
   font-size: 18px;
   text-align: left;
 }
