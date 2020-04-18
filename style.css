@@ -6,7 +6,7 @@ Used background pattern generator from http://www.heropatterns.com/
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono:ital,wght@0,300;0,700;1,700&display=swap');
 
-h1, h2, p, ul {
+h1, h2, h3, p, ul {
   font-family: 'Roboto Mono';
   font-style: italic;
   font-weight: 700;
@@ -18,6 +18,13 @@ h1, h2, p, ul {
 h2 {
   font-style: normal;
   font-size: 48px;
+  text-align: center;
+}
+
+h3 {
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
 }
 
 p {
@@ -75,10 +82,11 @@ a:active {
 }
 
 .boxed {
-  width: 500px;
+  width: 700px;
   margin: auto;
   border-style: solid dashed;
-  padding: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
   background: white;
 }
 
@@ -86,18 +94,8 @@ a:active {
   width: 500px;
   margin: auto;
   border-style: none;
-  padding: 30px;
-}
-
-.boxed-full {
-  width: auto;
-  margin: auto;
-  border-width: 1px;
-  border-style: solid;
-  border-color: white;
-  background-color: black;
-  padding: 20px;
-  box-shadow: 5px 5px 5px #000000;
+  padding-left: 30px;
+  padding-top: 10px;
 }
 
 .gap_sm{ 
@@ -108,4 +106,11 @@ a:active {
 .gap_lg {
   height: 50px;
   width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
