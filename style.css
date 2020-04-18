@@ -6,7 +6,7 @@ Used background pattern generator from http://www.heropatterns.com/
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono:ital,wght@0,300;0,700;1,700&display=swap');
 
-h1, h2, p {
+h1, h2, p, ul {
   font-family: 'Roboto Mono';
   font-style: italic;
   font-weight: 700;
@@ -21,6 +21,14 @@ h2 {
 }
 
 p {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: left;
+}
+
+ul {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
