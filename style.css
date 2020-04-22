@@ -48,14 +48,6 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23571845' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-footer {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background-color: lightgray;
-    margin-top: 20px;
-}
-
 .bordered {
   border-style: solid;
   border-width: 2px;
@@ -90,7 +82,7 @@ a:active {
 
 .boxed {
   width: 800px;
-  margin: auto;
+  margin: 20px;
   border-style: none;
   padding:30px;
   background: #FFC300;
@@ -100,7 +92,10 @@ a:active {
 .footer {
   background: #C70039;
   box-shadow: 5px 5px #FFC300;
-  margin-bottom: 20px;
+  width: 800px;
+  margin: 20px;
+  border-style: none;
+  padding:30px;
 }
 
 .section{ 
