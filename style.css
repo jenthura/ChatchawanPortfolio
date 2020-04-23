@@ -92,8 +92,6 @@ a:active {
 .footer {
   background: #C70039;
   box-shadow: 5px 5px #FFC300;
-  width: 800px;
-  margin: 20px;
   border-style: none;
   padding:30px;
 }
@@ -107,4 +105,5 @@ margin: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  vertical-align:middle;
 }
