@@ -12,7 +12,7 @@ h1, h2, h3, p, ul {
   font-weight: 700;
   font-size: 68px;
   text-align: center;
-  color: #571845;
+  color: #241138;
 }
 
 h2 {
@@ -44,15 +44,18 @@ ul {
 }
 
 body {
-  background-color: #ff5733;
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23571845' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+/*  background-color: #758ea6;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232d4f70' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+*/
+background-color: #927aad;
+background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23502f74' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 .bordered {
   border-style: solid;
   border-width: 2px;
-  border-color: #C70039;
-  box-shadow: 1px 1px #900C3E;
+  border-color: #927AAD;
+  box-shadow: 1px 1px #502f74;
 }
 
 /* header links don't need underlines */
@@ -72,7 +75,7 @@ a:visited {
   
   /* mouse over link */
 a:hover {
-  color: rgb(148, 0, 0);
+  color: #2D4F70;
 }
   
   /* selected link */
@@ -85,13 +88,13 @@ a:active {
   margin: 20px;
   border-style: none;
   padding:30px;
-  background: #FFC300;
-  box-shadow: 5px 5px #C70039;
+  background: #FFECAE;
+  box-shadow: 5px 5px #AC923D;
 }
 
 .footer {
-  background: #C70039;
-  box-shadow: 5px 5px #FFC300;
+  background: #AC923D;
+  box-shadow: 5px 5px #FFECAE;
   border-style: none;
   padding:30px;
 }
