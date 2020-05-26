@@ -3,36 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Chatchawan Portfolio</title>
+    <title>Chatchawan's Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script src="script.js"></script>
-      <header class="boxed center">
-        <h1>Chatchawan's Portfolio</h1>
-        <p style="text-align: center;">
-          <a href="index.html" class="header-link">Home</a> | <a href="#about" class="header-link">About</a> | <a href="#contact" class="header-link">Contact</a></p>
-        </header>
   <main>
-    <section id="whoAmI">
-      <div class="boxed  center">
-        <h3>Who am I?</h3>
-        <img id="about" src="images/chatchawan.png" alt="A picture of Chatchawan smiling, his hair is luxurious and glorious" class="center bordered" style="width: 200px; height: 200px; margin-bottom:20px; margin-right: 20px; float: left;">  
-        <p>
-          I’m Chatchawan L Suwaratana.<br>
-          I’m an aspiring web developer from Austin, Texas. I'm studying JavaScript, HTML, CSS, and JQuery at breakneck speeds. I only 
-          started 34 <!--I'll write JavaScript to calculate the exact number of days, but right now I don't know how to do that--> days 
-          ago and I've already learned so much!. I’m currently making small video games and web apps that I find fun. My passion is to
-           imbue a sense of whimsicality into everything I create.<br>
-           <br>
-          I'm most interested in working with a team of experienced developers to learn best how to create. I have a lot of skills to 
-          accrue, and working with others is how I learn best. A team-centric work environment pushes me to do my best. I enjoy supporting, 
-          impressing and, sometimes, competing with teammates!
-        </p>
+    <div class="wrapper">
+    <script src="script.js"></script>
+      <div class="group">
+          <h1>Chatchawan's Portfolio</h1>
       </div>
-    </section>
-    <section id="WhatILikeToDo">
-      <div class="boxed center">
+      <div class="group">
+          <a href="index.html">Home</a> | <a href="#about">About</a> | <a href="#contact">Contact</a>
+      </div>
+      <div class="group" id="whoAmI">
+          <div class="item">
+            <img id="about" src="images/chatchawan.png" alt="A picture of Chatchawan smiling, his hair is luxurious and glorious">  
+          </div>
+        <div class="item item-double">
+          <h3>Who am I?</h3>
+          <p>
+            I’m Chatchawan L Suwaratana.
+            <br>
+            I’m an aspiring web developer from Austin, Texas. I'm studying JavaScript, HTML, CSS, and JQuery at breakneck speeds. I only started weeks ago and I've already learned so much!. I’m currently making small video games and web apps that I find fun. My passion is to imbue a sense of whimsicality into everything I create.<br>
+            <br>
+            I'm most interested in working with a team of experienced developers to learn best how to create. I have a lot of skills to accrue, and working with others is how I learn best. A team-centric work environment pushes me to do my best. I enjoy supporting, impressing and, sometimes, competing with teammates!
+          </p>
+        </div>
+      </div>
+    <div class="group" id="WhatILikeToDo">
+      <div class="item item-double">
         <h3>What I Like To Do</h3>
         <p>
           When I'm in the mood to be creative (and that happens a lot) I have several outlets for that mood. My current projects are:
@@ -59,11 +59,16 @@
           spaces. There's really nothing like beating your wife's Beat Saber score to really make your day complete.
         </p>
       </div>
-    </section>
-    <section id="whatAmIDoing">   
-      <div class="boxed center">
+      <div class="item">
+        <img id="about" src="images/d20.png" alt="A picture of metal D-twenty die on a white background">  
+      </div>
+    </div>
+    <div class="group" id="whatAmIDoing">   
+      <div class="item">
+        <img src="images/rig.png" alt="3D Character rig in Blender" class="center bordered">
+      </div>
+      <div class="item item-double">
         <h3>What am I doing?</h3>
-        <img src="images/rig.png" alt="3D Character rig in Blender" class="center bordered" style="margin-bottom:20px; margin-right: 20px; float: right;">
         <p>
           Besides being a student at Thinkful and learning how to code in JavaScript, I'm learning how to create custom VRChat avatars 
           in Blender, and planning on providing comissions when my skills are sufficient. Many people prefer a personal presence in 
@@ -79,11 +84,10 @@
                 <li>Visual effects</li>
               </ul>  
       </div>
-    </section>
-    <section id="exampleApp">
-      <div class="boxed center">
+    </div>
+    <div class="group" id="exampleApp">
+      <div class="item item-double">
         <h3>Example App</h3>
-        <img src="images/example-app.png" alt="Mockup of an example app" class="center bordered">
         <p>
           This application creates an array of homework questions. The function to run it is worded as 
           "createHomework(operator,minNum,maxNum,numberOfProblems)" so you can see that it can create 
@@ -101,18 +105,27 @@
         </ul>
         <p>The github repo is <a href="https://github.com/jenthura/exampleApp" target="_blank">here</a>.<br>
         You can see it in action <a href="https://jenthura.github.io/exampleApp/" target="_blank">here</a>.
-      </p>
+        </p>
       </div>
-    </section>
+      <div class="item">
+        <img src="images/example-app.png" alt="Mockup of an example app" class="center bordered">
+      </div>
+    </div>
+  <div class="group">
+    <div class="item">
+      <a href="mailto:joshuasth@gmail.com" target="_blank"><img src="images/email-icon.png" alt="email icon" width=50 height=50></a>
+    </div>  
+    <div class="item">
+      <a href="https://github.com/jenthura" target="_blank"><img src="images/github-icon.png" alt="github icon" width=50 height=50></a>
+    </div>
+    <div class="item">
+      <a href="https://www.linkedin.com/in/chatchawan-l-suwaratana-5093aa14/" target="_blank"><img src="images/linkedin-icon.png" alt="linkedin icon" width=50 height=50></a>
+    </div>
+    <div class="item footer-img"> 
+      <a href="https://twitter.com/jenthuraCodes" target="_blank"><img src="images/twitter-icon.png" alt="twitter icon" width=50 height=50></a>
+    </div>
+  </div>
+  </div>
   </main>
-      <footer id="contact" class="center footer">
-        <!-- Social media icons -->
-        <div class="center">
-          <a href="mailto:joshuasth@gmail.com" target="_blank"><img src="images/email-icon.png" alt="email icon" width=50 height=50></a>
-          <a href="https://github.com/jenthura" target="_blank"><img src="images/github-icon.png" alt="github icon" width=50 height=50></a>
-          <a href="https://www.linkedin.com/in/chatchawan-l-suwaratana-5093aa14/" target="_blank"><img src="images/linkedin-icon.png" alt="linkedin icon" width=50 height=50></a>
-          <a href="https://twitter.com/jenthuraCodes" target="_blank"><img src="images/twitter-icon.png" alt="twitter icon" width=50 height=50></a>
-        </div>
-      </footer>
   </body>
 </html>
