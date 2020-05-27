@@ -6,6 +6,7 @@ body {
 }
 
 main {
+  margin: 0 200px;
   margin-top: 60px;
 }
 
@@ -14,6 +15,17 @@ main h1 {
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-size: 65px;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav li {
+  margin: 0 10px;
 }
 
 main h2 {
@@ -34,50 +46,25 @@ main p {
   margin-top: 0;
 }
 
-.wrapper {
-  width: 100%;
-  margin: auto;
+header {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
 }
 
 .group {
-  flex-direction: column;
-  border: 5px solid red;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  padding: 10px;
 }
 
 .item {
-  flex: 1;
-  border: 5px solid green;
-  padding: 15px;
-  background-color: white;
+  padding: 0 5px;
 }
 
 .item-double {
+  padding: 0 5px;
   flex: 2;
-  border: 5px solid blue;
 }
-
-img {
-  width: 100%;
-  flex: 1;
-}
-
-.bg-primary {
-  background-color: hsl(30, 25%, 25%);
-}
-
-.footer-img {
-  background-color: none;
-}
-
-@media all and (min-width: 800px) {
-  .group {
-    display: flex;
-    flex-direction: row;
-  }
-  .wrapper {
-    width: 75%;
-    margin: auto;
-  }
-}
-
-
