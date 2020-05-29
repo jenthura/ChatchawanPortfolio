@@ -88,6 +88,10 @@ li {
     flex-direction: row;
   }
 
+  .group-header {
+    justify-content: space-evenly;
+  }
+
   .reversed {
     flex-direction: row-reverse;
   }
