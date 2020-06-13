@@ -1,4 +1,14 @@
 {
     "prettier.useTabs": true,
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5502,
+    "workbench.colorTheme": "Red"
+}
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }

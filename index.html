@@ -6,144 +6,148 @@
     <title>Chatchawan's Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+<body>
   <main>
-    <header class="group">
+    <header>
         <h1>Chatchawan's Portfolio</h1>
         <ul class="nav">
           <li>
-            <a href="index.html"> Home </a>
+            <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="#about"> About </a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#contact"> Contact </a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
     </header>
-    <section class="group" id="whoAmI">
-      <div class="item">
-        <img id="about" src="images/chatchawan.png" height="350" alt="A picture of Chatchawan smiling, his hair is luxurious and glorious">  
-      </div>
-      <div class="item-double">
-        <h3>Who am I?</h3>
-        <p>
-          I’m Chatchawan L Suwaratana.
-        <br>
-            I’m an aspiring web developer from Austin, Texas. I'm studying JavaScript, HTML, CSS, and JQuery at breakneck speeds. I only started weeks ago and I've already learned so much! I’m currently making small video games and web apps that I find fun. My passion is to imbue a sense of whimsicality into everything I create.<br>
-        <br>
-            I'm most interested in working with a team of experienced developers to learn best how to create. I have a lot of skills to accrue, and working with others is how I learn best. A team-centric work environment pushes me to do my best. I enjoy supporting, impressing and -sometimes- competing with teammates!
-        </p>
-      </div>
-    </section>
-    <div class="group reversed" id="WhatILikeToDo">
-      <div class="item">
-        <img src="images/d20.png" height="350" alt="A picture of metal D-twenty die on a white background">  
-      </div>
-      <div class="item-double">
-        <h3>What I Like To Do</h3>
-        <p>
-          When I'm in the mood to be creative (and that happens a lot) I have several outlets for that mood. My current projects are:
-        </p>
-        <ul>
-          <li>Sculpting a model of Goldie from Animal Crossing so that I can put an NFC chip in the base and pretend I bought an amiibo</li>
-          <li>Learning how to draw human anatomy with <a href="https://www.youtube.com/watch?v=jB_SW4ry4DM&list=PLB5nUgozRxF-ak_GHT1_z9qrZ0Cp5ZTJi" target="_blank">these</a> video tutorials</li>
-          <li>Styrene model making, inspired by my hero, <a href="https://www.youtube.com/watch?v=ZfvtGrhYk0I" target="_blank">Adam Savage</a></li>
-          <li>Putting together a <a href="https://www.youtube.com/watch?v=3GWzHb4Hd8Y">hot wire foam cutter</a></li>
-          <li>Woodworking! I love making things from free wood I get from construction sites. Things I've made include:
+    <div class="wrapper">
+      <!-- Who am I? -->
+        <div class="group">
+          <div class="item centered">
+            <img src="images/chatchawan.png" alt="chatchawan's face, he is very handsome and his long hair is beautiful" width="300">
+          </div>
+          <div class="item">
+            <h2 class="centered">Who am I?</h2>
+              I’m Chatchawan L Suwaratana.
+              I’m an aspiring web developer from Austin, Texas. I'm studying JavaScript, HTML, CSS, and JQuery at breakneck speeds. I only started weeks ago and I've already learned so much! I’m currently making small video games and web apps that I find fun. My passion is to imbue a sense of whimsicality into everything I create.
+              I'm most interested in working with a team of experienced developers to learn best how to create. I have a lot of skills to accrue, and working with others is how I learn best. A team-centric work environment pushes me to do my best. I enjoy supporting, impressing and -sometimes- competing with teammates!
+          </div>
+        </div>
+        <!-- What I like to do -->
+        <div class="group reversed">
+          <div class="item">
+            <h2 class="centered">What I like to do</h2>
+            <p>When I'm in the mood to be creative (and that happens a lot) I have several outlets for that mood. My current projects are:</p>
             <ul>
-              <li>TV stand</li>
-              <li>Nightstand</li>
-              <li>Bathroom shelf</li>
-              <li>Two-tiered kitchen spice shelf</li>
-              <li>Straight-backed chair</li>
+              <li>
+              Making VRChat avatars
+              </li>
+              <li>
+              Making tea
+              </li>
+              <li>
+              Putting together a hot wire foam cutter
+              </li>
+              <li>
+              Styrene model making, inspired by my hero Adam Savage
+              </li>
+              <li>
+              Learning how to draw human anatomy with video tutorials
+              </li>
+              <li>Sculpting a model of Goldie from Animal Crossing so that I can put an NFC chip in the base and pretend I bought an amiibo</li>
+              <li>
+            Woodworking! I love making things from free wood I get from construction sites. Things I've made include:
+             <ul>
+               <li>
+                TV stand
+               </li>
+               <li>
+                Nightstand
+               </li>
+               <li>
+                Bathroom shelf
+               </li>
+               <li>
+                Two-tiered kitchen spice shelf
+               </li>
+               <li>
+                Straight-backed chair
+              </li>
+             </ul>  
+            </li>
             </ul>
-          </li>
-          <li>Making tea</li>
-          <li>Making VRChat avatars</li>
-        </ul>
-        <p>
-          I also enjoy video games and D&D. Both serve as great social channels to hang out with my friends and family in virtual 
-          spaces. There's really nothing like beating your wife's Beat Saber score to really make your day complete.
-        </p>
+          <p>
+            I also enjoy video games and D&D. Both serve as great social channels to hang out with my friends and family in virtual spaces. There's really nothing like beating your wife's Beat Saber score to really make your day complete.
+          </p>
+          </div>
+          <div class="item item-double centered">
+            <img src="images/d20.png" alt="a d20 dice" width="300">
+          </div>
+        </div>
+        <!-- Example App -->
+        <div class="group">
+          <div class="item centered">
+            <img src="images/example-app.png" alt="a screenshot of an example app in a browser window" width="300">
+          </div>
+          <div class="item item-double">
+            <h2 class="centered">Example App</h2>
+            This application creates an array of homework questions. The function to run it is worded as "createHomework(operator, minNum, maxNum, numberOfProblems)" so you can see that it can create a wide range of homework problems. I'm still working on how exactly to give it those inputs through the browser, but I'll learn soon.
+            This app was built for homeschoolers. I grew up as one myself, and I remember my mother running out of homework to give us. With an expanded set of inputs, any math problems can be procedurally generated to create infinite homework. Oh joy! :D
+            Skills used:
+            <ul>
+              <li>
+                JavaScript
+              </li>
+              <li>
+                HTML
+              </li>
+              <li>
+                CSS
+              </li>
+              <li>
+                Github
+              </li>
+            </ul>
+            The github repo is <a href="https://github.com/jenthura/exampleApp" target="_blank">here</a>
+            You can see it in action <a href="https://jenthura.github.io/exampleApp/" target="_blank">here</a>
+          </div>
+        </div>
+        <div class="group">
+          <div class="item centered">
+            <label>Contact me here!</label><br/>
+            <form action="https://formspree.io/myynenln" method="POST">
+              <label for="name">Name:</label><br/>
+            <input type="text" id="name" name="name"><br/>
+              <label for="email">Email:</label><br/>
+              <input type="email" id="email" name="_replyto"><br/>
+            <input type="submit" value="Send">
+            </form>
+          </div>
+        </div>
+
+
+
+
+<div class="wrapper">
+  <div class="nav-group">
+      <!-- <div class="item centered">   
+        <a href="mailto:joshuasth@gmail.com" target="_blank"><img src="images/email-icon.png" alt="email icon" width="20" class="footer-img"></a>
+      </div> -->
+      <div class="item centered">
+        <a href="https://github.com/jenthura" target="_blank"><img src="images/github-icon.png" alt="github icon" width="20" class="footer-img"></a>
       </div>
+      <div class="item centered">
+        <a href="https://www.linkedin.com/in/chatchawan-l-suwaratana-5093aa14/" target="_blank"><img src="images/linkedin-icon.png" alt="linkedin icon" width="20" class="footer-img"></a>
+      </div>
+      <div class="item centered">
+        <a href="https://twitter.com/jenthuraCodes" target="_blank"><img src="images/twitter-icon.png" alt="twitter icon" width="20" class="footer-img"></a>
     </div>
-    <div class="group" id="whatAmIDoing">   
-      <div class="item">
-        <img src="images/rig.png" width="350" alt="3D Character rig in Blender">
-      </div>
-      <div class="item-double">
-        <h3>What am I doing?</h3>
-        <p>
-          Besides being a student at Thinkful and learning how to code in JavaScript, I'm learning how to create custom VRChat avatars 
-          in Blender, and planning on providing commissions when my skills are sufficient. Many people prefer a personal presence in 
-          VRChat, and the desire is not unique to that platform.<br>
-          In an age of social distancing, we may see VR environments being the norm for social hangouts. Personalised and even 
-          reality-mimicing avatars could soon be in great demand.<br>
-          Services I would offer may include:</p>
-              <ul>
-                <li>Full custom avatars, sculpting, modeling, rigging, topology</li>
-                <li>Avatar changes, fixes</li>
-                <li>Animation</li>
-                <li>Prop modeling</li>
-                <li>Visual effects</li>
-              </ul>  
-      </div>
-    </div>
-    <div class="group reversed" id="exampleApp">
-      <div class="item">
-        <img src="images/example-app.png" width="350" alt="Mockup of an example app">
-      </div>
-      <div class="item-double">
-        <h3>Example App</h3>
-        <p>
-          This application creates an array of homework questions. The function to run it is worded as 
-          "createHomework(operator, minNum, maxNum, numberOfProblems)" so you can see that it can create 
-          a wide range of homework problems. I'm still working on how exactly to give it those inputs 
-          through the browser, but I'll learn soon.<br>
-          This app was built for homeschoolers. I grew up as one myself, and I remember my mother running 
-          out of homework to give us. With an expanded set of inputs, any math problems can be procedurally 
-          generated to create infinite homework. Oh joy! :D<br>
-          Skills used:
-        </p>
-        <ul>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Github</li>
-        </ul>
-        <p>The github repo is <a href="https://github.com/jenthura/exampleApp" target="_blank">here</a>.<br>
-        You can see it in action <a href="https://jenthura.github.io/exampleApp/" target="_blank">here</a>.
-        </p>
-      </div>
-    </div>
-      <div class="group">
-        <fieldset>
-          <legend>Contact me here!</legend>
-          <form action="https://formspree.io/myynenln" method="POST">
-          <label for="name">Name:</label>
-          <input id="name" type="text" name="name">
-          <label for="name">Email:</label>
-          <input id="_replyto" type="email" name="_replyto">
-          <input type="submit" value="Send">
-        </form>
-        </fieldset>
-    </div>
-    <ul class="nav" id="contact">
-      <li>
-        <a href="mailto:joshuasth@gmail.com" target="_blank"><img src="images/email-icon.png" alt="email icon" width=50 height=50></a>
-      </li>
-      <li>
-        <a href="https://github.com/jenthura" target="_blank"><img src="images/github-icon.png" alt="github icon" width=50 height=50></a>
-        </li>
-      <li>
-        <a href="https://www.linkedin.com/in/chatchawan-l-suwaratana-5093aa14/" target="_blank"><img src="images/linkedin-icon.png" alt="linkedin icon" width=50 height=50></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/jenthuraCodes" target="_blank"><img src="images/twitter-icon.png" alt="twitter icon" width=50 height=50></a>
-      </li>
-    </ul>
-  </main>
+  </div>
+</div>
+</div>
+
+    </main>
   </body>
 </html>
